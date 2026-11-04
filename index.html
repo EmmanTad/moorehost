@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Jamie Moore — Weddings & Events</title>
+<meta name="description" content="Premium event coordination for weddings, debuts, birthdays and corporate events.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Lato:wght@300;400;700&family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<canvas id="valley" aria-hidden="true"></canvas><div class="veil"></div>
+<header>
+  <a class="logo" href="#top">Jamie Moore<b>.</b></a>
+  <button class="menu" id="menu" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  <nav aria-label="Main" id="nav"><a href="#about">About</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#testimonials">Testimonials</a><a href="#contact">Contact</a><a class="pill" href="#contact">Book now</a></nav>
+</header>
+
+<section class="hero" id="top">
+  <div class="eyebrow">Premium event coordination</div>
+  <h1>Where Events are meant to be Satisfied</h1>
+  <p class="cap">We design and coordinate weddings, debuts, and corporate experiences with precision and style.</p>
+  <div class="row"><a class="btn" href="#contact">Book a consultation</a><a class="btn o" href="#portfolio">View our work</a>
+    <a class="go" id="go" href="#services" aria-label="Explore services"><svg viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a></div>
+  <div class="hint">Scroll to wander</div>
+</section>
+
+<section id="about"><div class="wrap about">
+  <div><div class="eyebrow">Welcome to Jamie Moore</div><h2>Turning Your Vision Into an Unforgettable Celebration</h2>
+  <p>At Jamie Moore Weddings &amp; Events, we believe every celebration tells a story. We don’t just plan events — we listen to your stories, then handle the details so you can be fully present.</p>
+  <div class="stats"><div><b>330+</b><span>Events styled</span></div><div><b>3+</b><span>Years experience</span></div></div></div>
+  <div class="panel"><div class="eyebrow">The dream team</div>
+    <p><b style="font-family:'Playfair Display',serif;font-weight:500">Bambi Rina</b> — <span style="color:var(--gold)">CEO &amp; Lead Planner</span></p><br>
+    <p><b style="font-family:'Playfair Display',serif;font-weight:500">Carmela Berces</b> — <span style="color:var(--gold)">Creative Director / Head Coordinator</span></p><br>
+    <p><b style="font-family:'Playfair Display',serif;font-weight:500">Jerome Absulio</b> — <span style="color:var(--gold)">Marketing Head</span></p></div>
+</div></section>
+
+<section id="services"><div class="wrap">
+  <div class="center"><div class="eyebrow">What we offer</div><h2>Tailored Event Packages</h2><p class="sub">Every event is unique, and so are our packages. Choose the perfect plan or let us create a custom one.</p></div>
+  <div class="grid">
+    <div class="panel"><div class="eyebrow">Weddings</div><h2 style="font-size:28px">Wedding Coordination</h2><div class="price">Starting at Php 45,000</div>
+      <ul><li>On the Day Coordination</li><li>Semi Full Coordination</li><li>Full Planning</li><li>All in Package</li></ul>
+      <div class="small">Optional add-ons</div><ul><li>Grazing Table</li><li>Perfume Bar</li><li>Mobile Bar</li></ul>
+      <div class="small">Ideal for</div><p>Couples planning classic or modern weddings</p><br><a class="btn" href="#contact">Inquire</a></div>
+    <div class="panel"><div class="eyebrow">Debuts</div><h2 style="font-size:28px">Debut &amp; Birthday Events</h2><div class="price">Starting at Php 35,000</div>
+      <ul><li>Theme developments</li><li>Program flow</li><li>Guest coordination</li></ul>
+      <div class="small">Optional add-ons</div><ul><li>Grazing Table</li><li>Perfume Bar</li><li>Mobile Bar</li><li>Full Styling</li></ul>
+      <div class="small">Ideal for</div><p>Families celebrating milestone birthdays</p><br><a class="btn" href="#contact">Inquire</a></div>
+    <div class="panel"><div class="eyebrow">Corporate</div><h2 style="font-size:28px">Corporate Event Management</h2><div class="price">Starting at Php 50,000</div>
+      <ul><li>Conference flow</li><li>Supplier and AV management</li><li>Brand styling</li></ul>
+      <div class="small">Optional add-ons</div><ul><li>Registration microsite</li><li>Host and emcee booking</li></ul>
+      <div class="small">Ideal for</div><p>Companies running launches and annual events</p><br><a class="btn" href="#contact">Inquire</a></div>
+  </div>
+</div></section>
+
+<section id="portfolio"><div class="wrap">
+  <div class="center"><div class="eyebrow">Our work</div><h2>Celebrations We’ve Brought to Life</h2><p class="sub">Swap these tiles for your event photos.</p></div>
+  <div class="tabs" id="tabs"><button class="on" data-f="all">All events</button><button data-f="Birthday">Birthdays</button><button data-f="Corporate">Corporate</button><button data-f="Debut">Debuts</button><button data-f="Wedding">Weddings</button></div>
+  <div class="grid" id="tiles"></div>
+</div></section>
+
+<section id="testimonials"><div class="wrap">
+  <div class="center"><div class="eyebrow">Client love</div><h2>Stories from Happy Hearts</h2></div><br>
+  <div class="grid">
+    <div class="panel"><div class="stars">★★★★★</div><p><i>“Thank you for giving us such a smooth and stress-free wedding day. Because of you, we were able to truly be present and enjoy every moment of our celebration.”</i></p><div class="who">Jerome &amp; Charm<small>Wedding · February 28, 2026</small></div></div>
+    <div class="panel"><div class="stars">★★★★★</div><p><i>“Our daughter’s debut became extra special because of Jamie Moore. The team was very organized, professional, and attentive to every detail.”</i></p><div class="who">Dra. Aimee Ibasco<small>Debut · November 2025</small></div></div>
+    <div class="panel"><div class="stars">★★★★★</div><p><i>“We highly recommend Jamie Moore for corporate events. Their team is organized, responsive, and very easy to work with.”</i></p><div class="who">Judilun Sese Ting<small>Purecard’s Christmas party · December 17, 2025</small></div></div>
+  </div>
+</div></section>
+
+<section class="cta"><div class="wrap center"><h2>Let’s Create Something Beautiful Together</h2><p class="sub" style="margin-bottom:26px">Share your event goals and we will map the full plan with you.</p><a class="btn" href="#contact">Book a free consultation</a></div></section>
+
+<section id="contact"><div class="wrap">
+  <div class="center"><div class="eyebrow">Let’s talk</div><h2>Book Your Consultation</h2></div><br>
+  <div class="contact">
+    <form class="panel" id="form">
+      <div><label for="fn">First name</label><input id="fn" required></div><div><label for="ln">Last name</label><input id="ln" required></div>
+      <div><label for="em">Email</label><input id="em" type="email" required></div><div><label for="ph">Phone</label><input id="ph" type="tel"></div>
+      <div><label for="dt">Event date</label><input id="dt" type="date"></div>
+      <div><label for="ty">Event type</label><select id="ty"><option>Wedding</option><option>Debut</option><option>Birthday</option><option>Corporate</option></select></div>
+      <div><label for="bg">Budget range</label><select id="bg"><option>Select budget</option><option>Under Php 50,000</option><option>Php 50,000 – 100,000</option><option>Php 100,000+</option></select></div>
+      <div><label for="gs">Expected guests</label><input id="gs" type="number" min="1"></div>
+      <div class="f"><label for="tm">Tell us more</label><textarea id="tm" placeholder="Share your vision, venue ideas, theme, or any details you’d like us to know."></textarea></div>
+      <div class="f"><button class="btn" type="submit">Send inquiry</button></div>
+      <p id="thanks" role="status">Thank you! We’ll get back to you soon with ideas and availability.</p>
+    </form>
+    <div>
+      <div class="panel offer"><div class="eyebrow">Limited-time consultation offer</div><h3>Book your FREE consultation and claim your discount!</h3>
+        <p><b>On-the-spot booking:</b> FREE out-of-town fee for Semi &amp; Full Coordination packages.</p><br>
+        <p><b>Special discounts:</b> Php 5,000 OFF on all coordination packages OR ₱10,000 OFF on the All-In Package + FREE Grazing Table for 100 pax.</p></div>
+      <div class="panel info"><p><b>Address</b>#9 Evangelista Street San Bartolome Novaliches Quezon City</p><p><b>Phone</b>0919 0045922<br>0968 1501773</p><p><b>Email</b>eventzified2016@gmail.com</p><p><b>Business hours</b>Mon–Fri 9:00 AM – 6:00 PM<br>Sat/Sun by appointment only</p></div>
+    </div>
+  </div>
+</div></section>
+
+<footer>© 2026 Jamie Moore. We craft unforgettable events with passion, creativity, and meticulous attention to detail.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
